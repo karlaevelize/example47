@@ -12,7 +12,7 @@ export default function Counter (){
         setCount(count - count) //how to reset the state
     }
 
-    console.log(count)
+    // console.log(count)
 
     return <div>
        <h2> number: {count}</h2>

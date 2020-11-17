@@ -3,11 +3,11 @@ import { useState } from "react"
 
 export default function Array(){
 
-    console.log(hogwartsStudents) //always console.log the data to see what kind of data you have
+    //console.log(hogwartsStudents) //always console.log the data to see what kind of data you have
 
     const [students, setStudents] = useState(hogwartsStudents)
 
-    console.log("students", students) //checking if the data was assigned correctly
+    //console.log("students", students) //checking if the data was assigned correctly
 
     const toggle = () => {
         students === hogwartsStudents 
@@ -15,7 +15,8 @@ export default function Array(){
             : setStudents(hogwartsStudents)
     }
 
-    console.log("rendered") //every time setState updates students the page is rendered, but only if it updates
+    //console.log("rendered") 
+    //every time setState updates students the page is rendered, but only if it updates
 
     return <div>
         <br/>
